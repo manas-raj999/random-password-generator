@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Password Generator</h1>
+    <div class="output-container">
+      <input type="text" id="password" readonly />
+      <button id="copyBtn" onclick="copyPassword()">📋</button>
+    </div>
+    <button class="generate-btn" onclick="generatePassword()">Generate Password</button>
+    <p id="copy-msg"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
